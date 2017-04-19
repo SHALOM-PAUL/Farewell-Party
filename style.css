@@ -1,8 +1,9 @@
 header img{
 	height:100px;
 	width:100px;
-	padding:10px 0px 0px 100px;
+	padding-left: 100px;
 }
+
 header h1{
 	font-size: 50px;
 	text-align:center;
@@ -17,9 +18,11 @@ header h2{
 }
 
 section{
-  padding: 20px 0px 0px 0px;
+  padding: 20px 0px 40px 0px;
 }
-
+h3{
+	text-align: center;
+}
 .numbers{
   padding: 0px;
   text-align: right;
@@ -55,132 +58,13 @@ section{
   left: 0px;
 }
 
-
-
-
-
-/* size of 700px */
-
-
-
-@media only screen and (min-width: 700px){
-
-  header img{
-    height:100px;
-    width:100px; 
-    padding: 10px 0px 80px 320px;
-  }
-
-  header h1{
-  font-size: 30px;
-  text-align:center;
-  padding: 0px 0px 0px 0px;
-  margin: -83px 0px 0px 0px;
-  }
-
-  header h2{
-  text-transform: uppercase;
-  text-align: center;
-  padding: 10px 0px 0px 0px;
-  font-size: 15px;
-  }
-
-  .numbers{
-  padding: 0px 0px 0px 2px;
-  text-align: right;
-  font-family: Arial;
-  font-size: 20px;
-  font-weight: bold;
-  font-style: italic;
-  color: #FFFFFF;
-  background: #222222;
+.wrapper{
+	background-color: black;
 }
-.title{
-  padding: 0px 0px 8px 0px;
-  margin: 15px 0px 0px 0px;
-  text-align: left;
-  font-family: Arial;
-  font-size: 8px;
-  font-weight: bold;
-  font-style: italic;
-  color: #FFFFFF;
-  background: #222222;
- }
- #countdown{
-  display: block;
-  width: 250px;
-  height: 47px;
-  border-style: ridge;
-  border-width: 2px;
-  border-color: #666666;
-  background-color: #222222;
-  margin: 0px auto;
-  position: relative;
-  top: 0px;
-  left: 0px;
-}
+video .cover{
 
-
-}
-
-/* size of 400px */
-
-@media only screen and (min-width: 400px){
-
-  header img{
-    height:100px;
-    width:100px; 
-    padding: 10px 0px 70px 145px;
-  }
-
-  header h1{
-  font-size: 30px;
-  text-align:center;
-  padding: 0px 0px 0px 0px;
-  margin: -83px 0px 0px 0px;
-  }
-
-  header h2{
-  text-transform: uppercase;
-  text-align: center;
-  padding: 10px 0px 0px 0px;
-  font-size: 15px;
-  }
-
-  .numbers{
-  padding: 0px 0px 0px 2px;
-  text-align: right;
-  font-family: Arial;
-  font-size: 20px;
-  font-weight: bold;
-  font-style: italic;
-  color: #FFFFFF;
-  background: #222222;
-}
-.title{
-  padding: 0px 0px 8px 0px;
-  margin: 15px 0px 0px 0px;
-  text-align: left;
-  font-family: Arial;
-  font-size: 8px;
-  font-weight: bold;
-  font-style: italic;
-  color: #FFFFFF;
-  background: #222222;
- }
- #countdown{
-  display: block;
-  width: 250px;
-  height: 47px;
-  border-style: ridge;
-  border-width: 2px;
-  border-color: #666666;
-  background-color: #222222;
-  margin: 0px auto;
-  position: relative;
-  top: 0px;
-  left: 0px;
-}
-
-
+	height:100px;
+	width:100px;
+	background-color: black;
+	padding-left: 15px;
 }
