@@ -9,9 +9,3 @@ port: 5000
 sass:
   sass_dir: assets/css
   style: :nested
-
----
-layout: default
-comments: true
-# other options
----
