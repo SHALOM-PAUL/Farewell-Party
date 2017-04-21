@@ -6,6 +6,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Farewell-Party</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="animate.css">
 
 </head>
 <body>
@@ -16,8 +17,8 @@
 		<h2>Department of CSE</h2>
 	</header>
 
-	<section>
-	<h3>This Site Expires in </h3>
+	<section class="item animate bounceIn">
+	<h3>This Site Will Expires in </h3>
 		<script type="text/javascript" src="js/countdown.js"></script>
 		<body onload="countdown(year,month,day,hour,minute);">
 			<div id="countdown" >
@@ -65,63 +66,20 @@
 		</body>
 	</section>
 
-<a id="my page">
-	<nav>
-		<ul>
-			<li>
-				<a href="index.html">HOME</a>
-				<a href="">VIDEOS</a>
-				<a href="">PHOTOS</a>
-				<a href="comments.html">COMMENTS</a>
-			</li>
-		</ul>
+	<nav class="wrapper-nav">
+		<a href="index.html">Home</a>
+		<a href="videos.html">Videos</a>
+		<a href="">Photos</a>
+		<a href="comments.html">Comments</a>
 	</nav>
-
-
-
-
-<!---
-	<div class="wrapper">
-		<table>
-			<tr class="cover">
-				<tr>
-					<td>
-					<video controls="video" poster="img/wall/header_banner.jpg" height="200px" width="300px" src="videos/single.mp4" type="video/mp4"></video>
-					<a href="videos/single.mp4" download>
-						<button type="button">Download</button>
-					</a>
-					</td>
-				</tr>
-
-				<tr>
-					<td>
-					<video controls="video" poster="img/wall/header_banner.jpg" height="200px" width="300px" src="videos/Funny Movements.mp4" type="video/mp4"></video>
-					<a href="videos/Funny Movements.mp4" download>
-						<button type="button">Download</button>
-					</a>
-					</td>
-				</tr>
-
-				<tr>
-					<td>
-					<video controls="video" poster="img/wall/header_banner.jpg" height="200px" width="300px" src="videos/Group.mp4" type="video/mp4"></video>
-					<a href="videos/Group.mp4" download>
-						<button type="button">Download</button>
-					</a>
-					</td>
-				</tr>
-			
-				<tr>
-					<td>
-					<video controls="video" poster="img/wall/header_banner.jpg" height="200px" width="300px" src="videos/Farewell.mp4" type="video/mp4"></video>
-					<a href="videos/Farewell.mp4" download>
-						<button type="button">Download</button>
-					</a>
-					</td>
-				</tr>
-			</tr>
-		</table>
+	<div class="slide">
+		<img src="img/wall/slide.jpg"/>
 	</div>
--->
+	</br>
+	</br>
+	<div class="border"></div>
+
+
+
 </body>
 </html>
