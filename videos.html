@@ -2,31 +2,82 @@
 <html>
 <head>
 	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Videos</title>
-
-	<link rel="stylesheet" type="text/css" href="video.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
 	<link rel="stylesheet" type="text/css" href="animate.css">
+	<link rel="stylesheet" type="text/css" href="video.css">
+
 </head>
 <body>
-<table>
-	<tr>
-		<td>
-			<a href="index.html">Home</a>
-		</td>
-	</tr>
-</table>
+	
+	<header>
+		<img src="img/laqshya.jpg">
+		<h1>Laqshya Institute of Technology and Sciences</h1>
+		<h2>Department of CSE</h2>
+	</header>
 
-<h1>Videos</h1>
-<p>Please hit the download button....so you will be redirected to the "mega download" site....in that page hit the "direct download" option....your video will start downloading</p>
-<p>Note: The video's which was displayed here was only 30 seconds of time....that is only to get aware of which file you are going to download....</p>
+	<section class="item animate bounceIn">
+	<h3>This Site Will Expires in </h3>
+		<script type="text/javascript" src="js/countdown.js"></script>
+		<body onload="countdown(year,month,day,hour,minute);">
+			<div id="countdown" >
+			<table cellspacing="4" cellpadding="0" border="0" align="center">
+	    		<tr>
+	        		<td colspan="8">
+	        			<div class="numbers" id="count2" style="text-align: center;"></div>
+	        		</td>
+	    		</tr>
+	    		<tr>
+			        <td align="right">
+			        	<div class="numbers" id="dday"></div>
+			        </td>       
+			        
+			        <td align="left">
+			        	<div class="title" id="days">Days</div>
+			        </td>
+			        
+			        <td align="right">
+			        	<div class="numbers" id="dhour"></div>
+			        </td>
+			        
+			        <td align="left">
+			        	<div class="title" id="hours">Hours</div>
+			        </td>
+			        
+			        <td align="right">
+			        	<div class="numbers" id="dmin"></div>
+			        </td>
+			        
+			        <td align="left">
+			        	<div class="title" id="minutes">Minutes</div>
+			        </td>
+			        
+			        <td align="right">
+			        	<div class="numbers" id="dsec"></div>
+			        </td>
+			        
+			        <td align="left">
+			        	<div class="title" id="seconds">Seconds</div>
+			       </td>
+			    </tr>
+			</table>
+			</div>
+		</body>
+	</section>
+
+	<nav class="wrapper-nav">
+		<a href="index.html">Home</a>
+		<a href="videos.html">Videos</a>
+		<a href="">Photos</a>
+		<a href="comments.html">Comments</a>
+	</nav>
 
 <section class="videolist">
 
 	<table>
 	<tr>
-		<td class="wrapper1 animate slideInDown">
+		<td class="wrapper1 animate zoomIn">
 
 			<video controls="video" poster="" height="200px" width="300px" src="videos/Funny Movements.mp4" type="video/mp4"></video>
 				
@@ -40,7 +91,7 @@
 		</td>
 
 
-		<td class="wrapper1 animate slideInDown">
+		<td class="wrapper2 animate zoomIn">
 			<video controls="video" poster="" height="200px" width="300px" src="videos/Group.mp4" type="video/mp4"></video>
 				
 				<h2>Group</h2>
@@ -52,7 +103,7 @@
 				</a>
 		</td>
 	
-		<td class="wrapper1 animate slideInDown">
+		<td class="wrapper3 animate zoomIn">
 
 			<video controls="video" poster="" height="200px" width="300px" src="videos/Single.mp4" type="video/mp4"></video>
 				
@@ -66,7 +117,7 @@
 
 		</td>
 
-		<td class="wrapper1 animate slideInDown">
+		<td class="wrapper4 animate zoomIn">
 			<video controls="video" poster="" height="200px" width="300px" src="videos/Farewell.mp4" type="video/mp4"></video>
 				
 				<h2>Farewell</h2>
@@ -80,6 +131,9 @@
 		</td>
 	</tr>
 	</table>
+
+<p>Please hit the download button....so you will be redirected to the "mega download" site....in that page hit the "direct download" option....your video will start downloading</p>
+<p>Note: The video's which was displayed here was only 30 seconds of time....that is only to get aware of which file you are going to download....</p>
 
 </section>
 
