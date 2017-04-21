@@ -1,8 +1,9 @@
 header img{
 	height:100px;
 	width:100px;
-	padding:10px 0px 0px 100px;
+	padding-left: 100px;
 }
+
 header h1{
 	font-size: 50px;
 	text-align:center;
@@ -17,9 +18,11 @@ header h2{
 }
 
 section{
-  padding: 20px 0px 0px 0px;
+  padding: 20px 0px 40px 0px;
 }
-
+h3{
+	text-align: center;
+}
 .numbers{
   padding: 0px;
   text-align: right;
@@ -53,4 +56,15 @@ section{
   position: relative;
   top: 0px;
   left: 0px;
+}
+
+.wrapper{
+	background-color: black;
+}
+video .cover{
+
+	height:100px;
+	width:100px;
+	background-color: black;
+	padding-left: 15px;
 }
