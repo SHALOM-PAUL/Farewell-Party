@@ -1,20 +1,19 @@
 header img{
-	height:100px;
-	width:100px;
-	padding-left: 100px;
+  height:100px;
+  width:100px;
+  padding-left: 100px;
 }
-
 header h1{
-	font-size: 50px;
-	text-align:center;
-	padding: 0px 0px 0px 0px;
-	margin: -83px 0px 0px 0px;
+  font-size: 50px;
+  text-align:center;
+  padding: 0px 0px 0px 0px;
+  margin: -83px 0px 0px 0px;
 }
 header h2{
-	text-transform: uppercase;
-	text-align: center;
-	padding: 0px 0px 0px 560px;
-	font-size: 25px;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 0px 0px 0px 560px;
+  font-size: 25px;
 }
 
 section {
@@ -22,7 +21,7 @@ section {
   padding: 20px 0px 40px 0px;
 }
 h3{
-	text-align: center;
+  text-align: center;
 }
 .item{
   -webkit-animation-duration:1s;
@@ -84,19 +83,3 @@ nav, a{
 a:hover{
   background-color: rgb(108,122,137);
 }
-
-img, .slide{
-  height: 500px;
-  width: 1024px;
-  padding: 0px 0px 10px 80px;
-  margin: 0px 0px -40px 0px;
-
-}
-
-.border{
-  background-color: #222222;
-  height:10px;
-  padding: 0px 0px 0px 0px;
-}
-
-
